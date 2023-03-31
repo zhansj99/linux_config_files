@@ -17,7 +17,7 @@ cmp.setup({
   },
   mapping = cmp.mapping.preset.insert({
     -- choose the suggestions 
-    ['J'] = cmp.mapping(cmp.mapping.select_next_item(), {'i', 'c'}),
+    ['<tab>'] = cmp.mapping(cmp.mapping.select_next_item(), {'i', 'c'}),
     ['K'] = cmp.mapping(cmp.mapping.select_prev_item(), {'i', 'c'}),
     ['<C-Space>'] = cmp.mapping.complete(),
     ['<C-e>'] = cmp.mapping.abort(),
